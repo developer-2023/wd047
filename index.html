@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article:first-child {
+            color: red;
+        }
+        article:last-child {
+            color: blue;
+        }
+        article:nth-child(even) {
+            font-weight: bold;
+        }
+        article:nth-child(odd) {
+            font-style: italic;
+        }
+        article:nth-child(3n) {
+            background-color: yellow;
+        }
+        article:not(.news) {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, delectus?</article>
+        <article class="news">Officiis beatae, dolor tempora praesentium rerum dolore vel minima reiciendis.</article>
+        <article>Laborum voluptas quisquam culpa dolor vero porro. Ipsa, cum at.</article>
+        <article>Ratione dolores nostrum ab animi tenetur quos quisquam in. Animi.</article>
+        <article>Tempora, fugit reprehenderit non maiores sint distinctio ea dolor obcaecati?</article>
+        <article>Aliquam veritatis possimus aperiam. Beatae quis asperiores laborum ipsam pariatur.</article>
+        <article>Excepturi, ducimus perferendis ratione optio voluptatibus debitis cumque vitae! Dolores!</article>
+        <article>Quam exercitationem, qui obcaecati saepe sint ipsum? In, magni architecto?</article>
+    </section>
+</body>
+</html>
